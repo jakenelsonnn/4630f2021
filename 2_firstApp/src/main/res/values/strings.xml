@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="topText">Greetings from North Conway, NH!</string>
+    <string name="bottomText">From your friend, Jacob Nelson.</string>
+</resources>
