@@ -118,3 +118,30 @@ be brought to a page containing info about that particular poll.
 for the polls which will show not only the title of the poll but the start date and end date, number of responses,
 and number of questions.
 
+
+--------------------------------
+
+WEEK THREE (SUBMISSION DATE: NOV 17)
+
+App Progress
+-created working login and signup modules for my signup/login activities. Now a PollApp user can actually create
+an account and use it to login to the app on future returns. This information is stored in a local database on
+the device. At this time all databases that this app will use (during its current state of development) will all
+be stored locally. In the future, I will learn about cloud-based database services, but at this current time, I
+don't know enough about that subject to incorporate it into my project.
+
+The database is created using Android's Room API, which allow you to code objects to represent various components
+of MySQL database features. This was an incredibly helpful API because it allowed me to create and use a MySQL
+database for my app without having to know a huge amount about MySQL. It really works, too. You can create an
+"account" on pollApp and it will save the information the user gave it to log in to the app at a later time. It
+features input validation from the user, making sure they input all fields, and that their password confirmation
+matches, and making sure they are registered in the system. A successful login will bring the user to the home
+activity.
+
+TODO/future plans
+-Start building other fragments and activities for the rest of the app. This upcoming week I plan on designing
+the activities/fragments for "Find Poll" and "Create Poll" and make sure the design works properly before adding
+the back-end features to it. After that, I am going to have to figure out a way to represent polls as MySQL enti-
+ties. That part is going to be a big obstacle because due to the nature of the app, the options for polls will be
+robust in terms of how many questions or what type of questions they may contain, so designing the entities for
+polls will be a challenge I need to spend some time on. 
