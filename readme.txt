@@ -145,3 +145,21 @@ the back-end features to it. After that, I am going to have to figure out a way 
 ties. That part is going to be a big obstacle because due to the nature of the app, the options for polls will be
 robust in terms of how many questions or what type of questions they may contain, so designing the entities for
 polls will be a challenge I need to spend some time on. 
+
+--------------------------------
+
+WEEK FOUR (SUBMISSION DATE: NOV 24)
+
+App Progress:
+Developed the home screen: implemented a RecyclerView to hold custom CardViews that will be linked to polls. The
+home screen is filled with sample polls at this time rather than just sample text. Also implemented navigation
+in the Home activity, so the "Add poll" and "Find poll" features will be fragments within the activity. At this
+time the fragments for "Add poll" and "Find poll" are blank.
+
+Also made it so it displays the email/username in the navigation header.
+
+TODO/Future plans
+Start designing the "Find Poll" and "Create Poll" fragments. The "Create Poll" aspect will involve allowing the
+user to design polls with as many questions as they would like, so I will need to implement something like a
+RecyclerView in which additional questions (and possible answers to those questions) can be added to the Recycler-
+View.
