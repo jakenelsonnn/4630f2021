@@ -163,3 +163,40 @@ Start designing the "Find Poll" and "Create Poll" fragments. The "Create Poll" a
 user to design polls with as many questions as they would like, so I will need to implement something like a
 RecyclerView in which additional questions (and possible answers to those questions) can be added to the Recycler-
 View.
+
+--------------------------------
+
+WEEK FIVE (SUBMISSION DATE: DEC. 1)
+
+App Progress:
+Defined data structures for Polls, Questions, and Answers, and started to develop the plan for storing Polls
+in a local Room database, similar to the UserEntity schema. Started to develop the layout for the "New Polls"
+fragment, which is likely the most complex/involved layout used so far in the app. The fragment itself contains
+a RecyclerView that is paired with an adapter that allows custom Views for new questions to be added in. I also
+defined the layout for those custom question Views. The custom Question view also has a RecyclerView that is
+linked to an adapter that holds the custom Views for Answers. The custom View for Answers simply consists of a
+TextView which is a label that just says "Answer: " and an EditText where the user can write the Answer.
+
+Inside of the Question View, there is a button that adds more Answer Views into the RecyclerView. Inside of the
+fragment itself, there is a button that adds more Question Views to the fragment's RecyclerView. This is the sys-
+tem that allows PollApp users to create Polls consisting of multiple questions with any number of answers per
+question.
+
+At this time, I have yet to get these buttons actually working. All of the layout components show up in the act-
+ivity as planned, but the buttons do not add anything to their RecyclerViews. I am still investigating the reason
+why what I have is not working. I think it might have to do with the OnClickListener inside of NewQuestionFragment.java
+because I am trying to get the button to display a Toast message when clicked, but nothing is showing up.
+
+TODO/Future plans
+Overcome above listed obstacles, make it so that when the user finishes making their poll, they can hit a "submit"
+button that will then create the poll for them and save it into a Room database. When the user hits that button, all
+of the text from the EditTexts for Answers will be used to create Answer.java objects, and the EditTexts for Questions
+will be used to create Question.java objects, the Answer objects will be put into the array of their respective Ques-
+tion objects, and then all of these Question objects will be put into the array of a Poll.java object, and that Poll
+object will be stored using Room Database using a PollEntity.java object, as well as the database and the DAO for
+PollEntities.
+
+Once that is all set, I will have to create the layout for the "Find Polls" fragment and design it so that the user
+can enter the ID of a poll they are looking for, and using the Room/DAO process, the app will retrieve and display
+the poll to them in an answerable form.
+
