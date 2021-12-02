@@ -1,0 +1,25 @@
+POLLAPP: HOW TO USE
+
+This is a guide on how to use PollApp. This guide pertains to the version of PollApp current to
+December 2, 2021, meaning in the future, when the app is updated, these instructions may no longer
+apply.
+
+When you open PollApp, you are met with the Login page. If it is your first time using PollApp,
+you will not have any user information and will have to proceed to the sign up page. Click where
+it says "sign up" to create an account.
+
+The signup form should be pretty self-explanatory. Enter your e-mail (or come up with a username)
+and make sure your password match, then press sign up to be taken to the main screen of the app.
+
+When you return to PollApp on the same device, you can use the information you signed up with to
+log in again.
+
+Now that you are on the main screen of the activity, the first thing you see is the "My Polls"
+dashboard where the user can see the list of the polls they have created, active or inactive.
+This scrollable dashboard is filled with placeholder data for the time being.
+
+Click on the "Hamburger" Icon to open up the navigation drawer. This is where you can navigate to
+other parts of the app. You can click on the items in the drawer to navigate to them. You can navi-
+gate between the My Polls, Find Poll, and New Poll sections of the app. At this time, The Find Poll
+section is empty, and the New Poll section isn't fully functional. However, you can add new "questions"
+to a poll using the floating action button in the bottom right corner of the screen.

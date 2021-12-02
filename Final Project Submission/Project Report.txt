@@ -1,0 +1,41 @@
+POLLAPP
+
+Jacob A. Nelson
+Mobile Application Development I
+University of Massachusetts Lowell
+December 2, 2021
+
+ABOUT POLLAPP
+The idea behind PollApp is to be a dedicated, easy-to-use platform for creating and responding to custom
+polls. PollApp would take away the hassle of trying to host a poll or survey and gather data from several
+people or sources. Its purpose is to be all-in-one, where creating polls, answering polls, and viewing
+the results could all easily take place within the app.
+
+A user of PollApp would be able to log in, create a poll, and then share the ID of that poll with those
+they wish to answer the poll. The user answering the poll would be able to type that ID into the "Find
+Poll" section of the app and then be given a page with the poll available to them in an answerable format.
+
+There exist other apps that accomplish a similar goal, but very few seem to be as simple or easy as what
+I envisioned for PollApp, and others didn't have nearly enough features. I encountered a handful of apps
+that were unsatisfactory in this regard. There is an app called Pollie that allows users to share and create
+polls, but the polls could only consist of a single question. What may have been even a worse offense was
+that the polls on that app were both taken and displayed on webpages, outside of the app. Pollie was one of
+a few apps I discovered that were guilty of this.
+
+ABOUT DEVELOPING POLL APP
+Time and lack of prior experience in Android programming were the biggest constraints in developing this
+app. (If a semester was two months longer, I would likely have a more complete verion of the app.) To dev-
+elop the best possible version of my app with the experience and amount of time I had, there were some
+compromises I had to make in terms of what I wanted the app to be, versus what I could realistically pro-
+duce. For instance, the current "version" of PollApp uses local databases for all of its information,
+rather than hosting information like user login info or poll data in an external server or cloud. Managing
+a database and knowing about server/cloud communications are not subjects I had prior experience with, so
+I made the choice to keep my databases for PollApp local. In the future, when all of PollApp's local features
+are completely functioning, such as if/when I take Mobile App Development II, I will shift my focus on getting
+external server communications incorporated into the app.
+
+Although it may not be a completely finished, working model of what I envisioned, I am extremely proud of
+both what I have learned in this course and accomplished with my project. In these few months, I went from
+knowing virtually nothing about developing for Android to feeling actually somewhat competent in my ability
+in making a working, useful app. There is still a lot for me to learn, but I feel like the skills I have gained
+and continue to gain as a developer are invaluble.

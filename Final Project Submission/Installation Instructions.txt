@@ -1,0 +1,18 @@
+POLLAPP INSTALLATION INSTRUCTIONS:
+
+1. Find app.debug.apk in the same folder as this file
+2. Download the .apk to your Android device or emulator
+3. Open the .apk on your Android device or emulator. 
+4. Depending on your settings, you may need to allow permissions for the .apk to be unpacked. Allow, then
+agree to unpack and install the app.
+5. Find the app in you library and open it.
+
+ALTERNATIVE VIEWING: ANDROID STUDIO
+If the above does not work, you could try opening the project for the app in Android Studio.
+
+1. Find PollApp.zip in the same folder as the file
+2. Unzip the folder into a folder named PollApp
+3. Move the PollApp folder into the AndroidStudioProjects folder
+4. Open the project/directory in Android Studio.
+5. A gradle sync may be necessary, so go to File > Sync Project with Gradle Files
+6. Run the app via an emulator connected to Android Studio.
